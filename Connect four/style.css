@@ -1,3 +1,25 @@
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 350px;
+}
+
+.grid div {
+    height: 50px;
+    width: 50px;
+}
+
+.player-one {
+    background-color: red;
+    border-radius: 25px;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 25px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
@@ -6,11 +28,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(146, 197, 245, 0.678);;
+    background-color: rgba(146, 197, 245, 0.678);
 }
 
 .container {
-    padding: 20px 20px;
+    padding: 20px 40px;
     border: thick solid #040405;
     background-color: thistle;
     display: flex;
@@ -43,12 +65,4 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    height: 300px;
-    width: 400px;
-    cursor: pointer;
 }
