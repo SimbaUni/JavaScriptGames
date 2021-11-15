@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.snake {
+    background-color: blue;
+}
+
+.apple {
+    background-color: red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(146, 197, 245, 0.678);
+}
+
+button {
+    background-color: rgb(255, 247, 247);
+    border: solid #040405;
+    color: rgb(8, 8, 8);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px 40px;
+    border: thick solid #040405;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    font-size: 20px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+
+#bloc1, #bloc2, #bloc3
+{
+    display:inline;
+}
