@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(146, 197, 245, 0.678);
+}
+
+button {
+    background-color: rgb(255, 247, 247);
+    border: solid #040405;
+    color: rgb(8, 8, 8);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px 40px;
+    border: thick solid #040405;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 300px;
+    height: 300px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.shooter {
+    background-color: blue;
+}
+
+.invader {
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.boom {
+    background-color: red;
+}
+
+.laser {
+    background-color: orange;
+}
