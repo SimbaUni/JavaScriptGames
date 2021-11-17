@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(146, 197, 245, 0.678);
+}
+
+.button {
+    background-color: rgb(255, 247, 247);
+    border: solid #040405;
+    color: rgb(8, 8, 8);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: rgb(255, 247, 247);
+    border: solid #040405;
+    color: rgb(8, 8, 8);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 40px;
+    padding: 20px 40px;
+    border: thick solid #040405;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 360px;
+    width: 360px;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2, .c3 {
+    background-color: grey;
+}
+
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+
+.l4, .l5 {
+   background-color: lightblue; 
+}
+
+.frog {
+    background-color: green;
+}
