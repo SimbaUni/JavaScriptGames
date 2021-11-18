@@ -1,9 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const squares = document.querySelectorAll('.grid div')
+
     const scoreDisplay = document.querySelector('span')
     const startBtn = document.querySelector('.start')
 
-    const width = 10
+    const GRID_WIDTH = 10
+    const GRID_HEIGHT = 10
+    const GRID_SIZE = GRID_WIDTH * GRID_HEIGHT
+    const grid = createGrid();
+    const squares = Array.from(grid.querySelectorAll('div'))
+
+    
+    let width = 10
     let currentIndex = 0 // first div in grid
     let appleIndex = 0 // first div in grid
     let currentSnake = [2, 1, 0] // 2 for head, 0 for tail and 1 for inbetween
@@ -12,6 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
     let speed = 0.9
     let intervalTime = 0
     let interval = 0
+
+    function createGrid() {
+        // the main grid
+        let grid = document.querySelector(".grid")
+        for (let i = 0; i < GRID_SIZE; i++) {
+          let gridElement = document.createElement("div")
+          grid.appendChild(gridElement)
+        }
+        return grid;
+    }
 
     // to start and restart game
     function startGame() {

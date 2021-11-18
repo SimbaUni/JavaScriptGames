@@ -1,4 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    font-size: 0.625em;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    margin: auto;
+    max-width: 60rem;
+    color: #070707;
+    background: radial-gradient(
+        circle,
+        rgba(175, 196, 174, 1) 0%,
+        rgba(104, 204, 191, 1) 89%,
+        rgba(94, 191, 178, 1) 100%
+);
+}
+
+header {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.score-display {
+    font-size: 5rem;
+    color: rgb(133, 121, 107, 0.5);
+}
 
 .grid {
     width: 400px;
@@ -18,7 +47,8 @@
 }
 
 .apple {
-    background-color: red;
+    background-image: url('apple.png');
+    background-size: cover;
 }
 
 body {
@@ -43,12 +73,12 @@ button {
 .container {
     margin-top: 20px;
     padding: 20px 40px;
-    border: thick solid #040405;
-    background-color: thistle;
+    border: solid #040405;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.253);
 }
 
 .key {
