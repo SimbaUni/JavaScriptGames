@@ -1,11 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    font-size: 0.625em;
+}
+
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(146, 197, 245, 0.678);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    margin: auto;
+    max-width: 60rem;
+    color: #070707;
+    background: radial-gradient(
+        circle,
+        rgba(175, 196, 174, 1) 0%,
+        rgba(104, 204, 191, 1) 89%,
+        rgba(94, 191, 178, 1) 100%
+);
+}
+
+header {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.score-display {
+    font-size: 5rem;
+    color: rgb(133, 121, 107, 0.5);
 }
 
 .button {
@@ -33,8 +54,8 @@ body {
 .container {
     margin-top: 40px;
     padding: 20px 40px;
-    border: thick solid #040405;
-    background-color: thistle;
+    border: solid #040405;
+    background-color: rgba(253, 253, 253, 0.486);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,14 +63,12 @@ body {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 h3 {
-    font-family: 'Oswald', sans-serif;
     font-size: 26px;
     display: flex;
     justify-content: center;
@@ -70,29 +89,40 @@ h3 {
 }
 
 .ending-block {
-    background-color: red;
+    background-image: url('house.png');
+    background-size: cover;
 }
 
 .starting-block {
-    background-color: blue;
+    background-color: rgb(241, 241, 245);
 }
 
 .c1 {
-    background-color: black;
+    background-image: url('car.png');
+    background-size: cover;
+    
+    /* background-image: url('car.png');
+    background-size: 100%;
+    background-repeat: no-repeat; */
 }
 
 .c2, .c3 {
-    background-color: grey;
+    background-image: url('road.png');
+    background-size: cover;
 }
 
 .l1, .l2, .l3 {
-    background-color: brown;
+    background-image: url('log.png');
+    background-size: cover;
 }
 
 .l4, .l5 {
-   background-color: lightblue; 
+    background-image: url('water.png');
+    background-size: cover;
 }
 
+
 .frog {
-    background-color: green;
+    background-image: url('frog.png');
+    background-size: cover;
 }
