@@ -1,4 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    font-size: 0.625em;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    margin: auto;
+    max-width: 60rem;
+    color: #070707;
+    background: radial-gradient(
+        circle,
+        rgba(175, 196, 174, 1) 0%,
+        rgba(104, 204, 191, 1) 89%,
+        rgba(94, 191, 178, 1) 100%
+);
+}
+
+header {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.score-display {
+    font-size: 5rem;
+    color: rgb(133, 121, 107, 0.5);
+}
+
+button {
+    background-color: rgb(255, 247, 247);
+    border: solid #040405;
+    color: rgb(8, 8, 8);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: rgb(255, 247, 247);
+    border: solid #040405;
+    color: rgb(8, 8, 8);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 40px;
+    padding: 20px 40px;
+    border: solid #040405;
+    background-color: rgba(253, 253, 253, 0.486);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .grid {
     border: 1px solid;
@@ -21,49 +96,4 @@
 .player-two {
     background-color: blue;
     border-radius: 25px;
-}
-
-body {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(146, 197, 245, 0.678);
-}
-
-.container {
-    padding: 20px 40px;
-    border: thick solid #040405;
-    background-color: thistle;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-button {
-    background-color: thistle;
-    border: solid #040405;
-    color: black;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h3 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 26px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
